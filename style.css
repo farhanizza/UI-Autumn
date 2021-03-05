@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: "Shippori Mincho", serif;
+  background-image: url("forest3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  width: 100%;
+}
+.navbar .about {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+.about ul {
+  list-style: none;
+  display: flex;
+}
+.about ul li {
+  float: left;
+}
+.about ul li a {
+  display: block;
+  color: rgba(245, 245, 245, 0.698);
+  margin-left: 27px;
+  font-size: 17px;
+  transition: 0.5s;
+}
+.about ul li a:hover {
+  color: crimson;
+}
+.kotak {
+  display: fixed;
+  padding: 10px;
+}
+
+.kotak input {
+  margin-left: 60px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 300px;
+  background-color: rgba(54, 54, 54, 0.239);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+}
+
+.kotak .search {
+  position: absolute;
+  margin-top: -28px;
+  margin-left: 70px;
+  font-size: small;
+}
+.fa-search {
+  color: rgba(54, 54, 54, 0.239);
+}
+.container {
+  position: absolute;
+  padding: 60px;
+  margin-left: 50px;
+}
+.container h6 {
+  padding-bottom: 0px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  color: rgba(54, 54, 54, 0.842);
+}
+.container .text .text1 {
+  padding-bottom: 10px;
+  color: rgba(245, 245, 245, 0.698);
+  font-size: 78px;
+}
+
+.container .text .text2 {
+  margin-left: 10px;
+  font-size: 17px;
+  color: rgba(245, 245, 245, 0.698);
+}
+
+.bundar {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 120px;
+  font-size: 15px;
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50px;
+}
+.bundar .sett {
+  display: flex;
+  padding: 9px;
+  margin-left: -12px;
+}
+.sett ul {
+  list-style: none;
+}
+.sett ul li {
+  float: left;
+}
+.sett ul li p {
+  margin-left: 27px;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sett ul li p:hover {
+  color: crimson;
+}
+.fa-calendar-week {
+  margin-right: 10px;
+  color: gray;
+}
+.bundar2 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 290px;
+  font-size: 15px;
+  width: 200px;
+  height: 35px;
+  backdrop-filter: blur(6.2px);
+  background-color: rgba(245, 245, 245, 0.144);
+  border-radius: 50px;
+}
+.bundar2 .sett2 {
+  display: flex;
+  padding: 9px;
+  margin-left: 15px;
+}
+.sett2 ul {
+  list-style: none;
+}
+.sett2 ul li p {
+  margin-left: -5px;
+  color: rgba(245, 245, 245, 0.698);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sett2 ul li p:hover {
+  color: crimson;
+}
+.fa-image {
+  margin-right: 10px;
+  font-size: 17px;
+  margin-top: -2px;
+  color: rgba(255, 255, 255, 0.452);
+}
+.kotak2 {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 100px;
+  width: 160px;
+  height: 180px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(245, 245, 245, 0.144);
+  border-radius: 10px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(245, 245, 245, 0.144)
+  );
+}
+.settext {
+  margin: 40px 30px;
+}
+.kotak2 .settext .text3 a {
+  font-size: 27px;
+  color: rgba(245, 245, 245, 0.698);
+  transition: 0.5s;
+}
+.kotak2 .settext .text3 a:hover {
+  color: crimson;
+}
+.kotak2 .settext .text3 {
+  margin-bottom: 10px;
+}
+.kotak2 .settext .text4 {
+  font-size: 12px;
+  margin-left: 3px;
+  color: rgba(255, 255, 255, 0.623);
+}
+.kotak3 {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 360px;
+  width: 160px;
+  height: 180px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(245, 245, 245, 0.144);
+  border-radius: 10px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(245, 245, 245, 0.144)
+  );
+}
+.settext2 {
+  margin: 40px 30px;
+}
+.kotak3 .settext2 .text5 a {
+  font-size: 27px;
+  color: rgba(245, 245, 245, 0.698);
+  transition: 0.5s;
+}
+.kotak3 .settext2 .text5 a:hover {
+  color: crimson;
+}
+.kotak3 .settext2 .text5 {
+  margin-bottom: 10px;
+}
+.kotak3 .settext2 .text6 {
+  font-size: 12px;
+  margin-left: 3px;
+  color: rgba(255, 255, 255, 0.623);
+}
